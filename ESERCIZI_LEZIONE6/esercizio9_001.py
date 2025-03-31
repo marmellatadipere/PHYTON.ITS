@@ -14,17 +14,19 @@ class Restaurant:
     def __init__(self, name:str, cuisinetype:str):
         self.name = name
         self.cuisinetype = cuisinetype
+
     def describe_restaurant(self):
         print(self.name)
         print(self.cuisinetype)
+
     def open_restaurant(self):
         print("il ristorante e' aperto")
-        
-
+    
 ristorante = Restaurant("Pinocchio", "Italiana")
-print(ristorante.name)
-print(ristorante.cuisinetype)
 
+if "__name__" == "__main__":
+    print(ristorante.name)
+    print(ristorante.cuisinetype)
 
 ristorante.describe_restaurant()
 ristorante.open_restaurant()
