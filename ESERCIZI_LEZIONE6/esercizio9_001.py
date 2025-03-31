@@ -24,9 +24,6 @@ class Restaurant:
     
 ristorante = Restaurant("Pinocchio", "Italiana")
 
-if "__name__" == "__main__":
-    print(ristorante.name)
-    print(ristorante.cuisinetype)
-
-ristorante.describe_restaurant()
-ristorante.open_restaurant()
+if __name__ == "__main__":
+    ristorante.describe_restaurant()
+    ristorante.open_restaurant()
